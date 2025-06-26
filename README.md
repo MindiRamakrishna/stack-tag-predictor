@@ -12,8 +12,19 @@ This project performs multi-label classification to predict tags associated with
 - `Questions.xlsx`, `Tags.xlsx`, `Answers.xlsx` (optional)
 - `tag_predictor.py`: main script
 - `requirements.txt`: dependencies
+  ## 📁 Data Files Note
 
-## How to Run:
+The original dataset files (`Questions.xlsx`, `Answers.xlsx`, `Tags.xlsx`) were not included in this repository due to GitHub’s 100 MB file size limit.
+
+You may request access to the dataset if needed for reproduction or further analysis.
+
+
+## 🛠️ How to Run:
+
 ```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the tag prediction script
 python tag_predictor.py
+
